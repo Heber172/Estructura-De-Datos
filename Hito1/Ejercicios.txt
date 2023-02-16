@@ -1,0 +1,77 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//Console.WriteLine("Bievenido a la materia Estructura de datos");
+		//int numA = Convert.ToInt32(Console.ReadLine());
+		//int numB = Convert.ToInt32(Console.ReadLine());
+		//int numC = Convert.ToInt32(Console.ReadLine());
+		//int resultado;
+		
+		//resultado = numA+numB+numC;
+		//Console.WriteLine(resultado);
+		
+		
+		/////////////////////////////////////////////////////
+		//for(int i = 1; i <= 15; i++)
+		//{
+		//	Console.Write(i +" " );
+		//}
+		
+		
+		
+		////////////////////////////////////////////////////
+		//int num = Convert.ToInt32(Console.ReadLine());
+		//if(num%2 == 0)
+		//{
+		//	for(int i = 1; i <= num; i++)
+		//	{
+		//		if(i%2 == 0)
+		//		{
+		//			Console.Write(i + " ");
+		//		}
+		//	}
+		// }
+		//else
+		//{
+		//	for(int i = 1; i <= num; i++)
+		//	{
+		//		 
+		//		if(i%2 != 0)
+		//		{
+		//			Console.Write(i + " ");
+		//		}
+		//	
+		//	}
+		//}
+		
+		public class DIAGNOSTICO 
+		{
+			private string resultado;
+			private string observaciones;
+
+			public DIAGNOSTICO() 
+			{
+				this.resultado = resultado;
+				this.observaciones = observaciones;
+			}
+
+			public void Metodo1() 
+			{
+				Console.WriteLine("Bievenido a la materia Estructura de datos");
+			}
+
+			public void Metodo2() 
+			{
+				int numA = 10;
+				int numB = 45;
+				int numC = 12;
+				int resultado;
+
+				resultado = numA+numB+numC;
+				Console.WriteLine(resultado);
+			}
+		}
+}
